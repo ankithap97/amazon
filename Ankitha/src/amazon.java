@@ -21,7 +21,7 @@ public class amazon {
 	        driver.findElement(By.id("nav-search-submit-button")).click();
 	      //TC4 Navigate back to home page
 	        driver.navigate().back();
-	      //TC5 To print the title of homepage
+	      //TC5 To print the title of amazon homepage
 	      String s=  driver.getTitle();
 	      System.out.println(s);
 	      //TC6 close the browser
